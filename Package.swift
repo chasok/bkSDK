@@ -13,12 +13,10 @@ let package = Package(
             type: .static,
             targets: ["bLinkup"]),
     ],
-    dependencies: [
-    ],
     targets: [
         .binaryTarget(
             name: "bLinkup",
-            path: "./bLinkup.xcframework"
+            path: "./bLinkup.xcframework",
             swiftSettings: [
                 .define("DEBUG", .when(configuration: .debug))
             ])
