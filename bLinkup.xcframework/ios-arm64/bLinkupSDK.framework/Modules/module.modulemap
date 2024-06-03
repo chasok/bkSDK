@@ -1,0 +1,6 @@
+framework module bLinkupSDK {
+  umbrella header "bLinkupSDK.h"
+  export *
+
+  module * { export * }
+}
