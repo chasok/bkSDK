@@ -17,5 +17,6 @@ let package = Package(
         .binaryTarget(
             name: "bLinkup",
             path: "https://github.com/chasok/bkSDK/archive/refs/tags/2.1.5.zip"
+        )
     ]
 )
