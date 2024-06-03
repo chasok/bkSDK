@@ -16,9 +16,6 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "bLinkup",
-            path: "./bLinkup.xcframework",
-            swiftSettings: [
-                .define("DEBUG", .when(configuration: .debug))
-            ])
+            path: "https://github.com/chasok/bkSDK/archive/refs/tags/2.1.5.zip"
     ]
 )
